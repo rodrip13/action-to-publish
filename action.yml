@@ -1,0 +1,16 @@
+name: 'Actions by Rodrip'
+description: 'Actions by Rodrip- testing marketplace publish'
+inputs:
+  who-to-greet:  # id of input
+    description: 'Who to greet'
+    required: true
+    default: 'World'
+outputs:
+  time: # id of output
+    description: 'The time we greeted you'
+runs:
+  using: 'node20'
+  main: 'index.js'
+branding:
+  icon: 'rocket'
+  color: 'green'
